@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Navigo</string>
+    <string name="google_api_key">AIzaSyDIrMzyydLAb838pbQJJobDeO5GRoY1DD8</string>
+    <string name="browser_key">AIzaSyA3f1UU1RNDKEdIVoMAP9K9E23hCh9dfhY</string>
+    <string name="server_key">AIzaSyDpUpBaQPrF4HuezayPInkNsS4jMjHG6d0</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
