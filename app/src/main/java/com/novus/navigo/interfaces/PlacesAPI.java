@@ -15,4 +15,7 @@ public interface PlacesAPI {
 
     @GET("/maps/api/place/search/json?radius=50000&&types=museum&sensor=false&key=AIzaSyA3f1UU1RNDKEdIVoMAP9K9E23hCh9dfhY")
     Call<PlacesList> getPlacesWithLocation(@Query("location") String location);
+
+    @GET("/maps/api/place/search/json?key=AIzaSyA3f1UU1RNDKEdIVoMAP9K9E23hCh9dfhY")
+    Call<PlacesList> getNextPage(@Query("location") String location, @Query("pagetoken") String pageToken);
 }

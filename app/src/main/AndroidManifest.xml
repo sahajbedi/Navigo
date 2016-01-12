@@ -40,6 +40,15 @@
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
             </intent-filter>
         </receiver>
+
+        <activity
+            android:name=".ViewPlaceDetailsActivity"
+            android:label="@string/title_activity_view_place_details" >
+        </activity>
+        <activity
+            android:name=".TabActivity"
+            android:label="@string/title_activity_tab" >
+        </activity>
     </application>
 
 </manifest>

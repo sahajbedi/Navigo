@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
             showDialog("The app requires Location Service", "Kindly enable Location Services");
         else {
             //Add code to go to your class
-//            Intent intent = new Intent(this, TabActivity.class);
+            Intent intent = new Intent(this, com.novus.navigo.TabActivity.class);
 //            Intent intent = new Intent(this, LocationActivity.class);
 //            Intent intent = new Intent(this, DisplayImageActivity.class);
-//            startActivity(intent);
-//            finish();
+            startActivity(intent);
+            finish();
         }
     }
 
@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
             showDialog("The app requires Location Service", "Kindly enable Location Services");
         else {
             //Add code to go to your class
-//            Intent intent = new Intent(this, TabActivity.class);
+            Intent intent = new Intent(this, com.novus.navigo.TabActivity.class);
 //            Intent intent = new Intent(this, LocationActivity.class);
 //            Intent intent = new Intent(this, DisplayImageActivity.class);
-//            startActivity(intent);
-//            finish();
+            startActivity(intent);
+            finish();
         }
     }
 
